@@ -1,97 +1,97 @@
 Well,Strain,Plasmid,Media,Condition1,Condition2
-A1,E. coli W3110,,LB,,
-A2,E. coli W3110,,LB,,
-A3,E. coli W3110,,LB,,
-A4,E. coli W3110,,LB,,
-A5,E. coli W3110,,LB,,
-A6,E. coli W3110,,LB,,
-A7,E. coli W3110,,LB,,
-A8,E. coli W3110,,LB,,
-A9,E. coli W3110,,LB,,
-A10,E. coli W3110,,LB,,
-A11,E. coli W3110,,LB,,
-A12,E. coli W3110,,LB,,
-B1,E. coli W3110,,LB,,
-B2,E. coli W3110,,LB,,
-B3,E. coli W3110,,LB,,
-B4,E. coli W3110,,LB,,
-B5,E. coli W3110,,LB,,
-B6,E. coli W3110,,LB,,
-B7,E. coli W3110,,LB,,
-B8,E. coli W3110,,LB,,
-B9,E. coli W3110,,LB,,
-B10,E. coli W3110,,LB,,
-B11,E. coli W3110,,LB,,
-B12,E. coli W3110,,LB,,
-C1,E. coli W3110,,LB,,
-C2,E. coli W3110,,LB,,
-C3,E. coli W3110,,LB,,
-C4,E. coli W3110,,LB,,
-C5,E. coli W3110,,LB,,
-C6,E. coli W3110,,LB,,
-C7,E. coli W3110,,LB,,
-C8,E. coli W3110,,LB,,
-C9,E. coli W3110,,LB,,
-C10,E. coli W3110,,LB,,
-C11,E. coli W3110,,LB,,
-C12,E. coli W3110,,LB,,
-D1,E. coli W3110,,LB,,
-D2,E. coli W3110,,LB,,
-D3,E. coli W3110,,LB,,
-D4,E. coli W3110,,LB,,
-D5,E. coli W3110,,LB,,
-D6,E. coli W3110,,LB,,
-D7,E. coli W3110,,LB,,
-D8,E. coli W3110,,LB,,
-D9,E. coli W3110,,LB,,
-D10,E. coli W3110,,LB,,
-D11,E. coli W3110,,LB,,
-D12,E. coli W3110,,LB,,
-E1,E. coli W3110,,LB,,
-E2,E. coli W3110,,LB,,
-E3,E. coli W3110,,LB,,
-E4,E. coli W3110,,LB,,
-E5,E. coli W3110,,LB,,
-E6,E. coli W3110,,LB,,
-E7,E. coli W3110,,LB,,
-E8,E. coli W3110,,LB,,
-E9,E. coli W3110,,LB,,
-E10,E. coli W3110,,LB,,
-E11,E. coli W3110,,LB,,
-E12,E. coli W3110,,LB,,
-F1,E. coli W3110,,LB,,
-F2,E. coli W3110,,LB,,
-F3,E. coli W3110,,LB,,
-F4,E. coli W3110,,LB,,
-F5,E. coli W3110,,LB,,
-F6,E. coli W3110,,LB,,
-F7,E. coli W3110,,LB,,
-F8,E. coli W3110,,LB,,
-F9,E. coli W3110,,LB,,
-F10,E. coli W3110,,LB,,
-F11,E. coli W3110,,LB,,
-F12,E. coli W3110,,LB,,
-G1,E. coli W3110,,LB,,
-G2,E. coli W3110,,LB,,
-G3,E. coli W3110,,LB,,
-G4,E. coli W3110,,LB,,
-G5,E. coli W3110,,LB,,
-G6,E. coli W3110,,LB,,
-G7,E. coli W3110,,LB,,
-G8,E. coli W3110,,LB,,
-G9,E. coli W3110,,LB,,
-G10,E. coli W3110,,LB,,
-G11,E. coli W3110,,LB,,
-G12,E. coli W3110,,LB,,
-H1,E. coli W3110,,LB,,
-H2,E. coli W3110,,LB,,
-H3,E. coli W3110,,LB,,
-H4,E. coli W3110,,LB,,
-H5,E. coli W3110,,LB,,
-H6,E. coli W3110,,LB,,
-H7,E. coli W3110,,LB,,
-H8,E. coli W3110,,LB,,
-H9,E. coli W3110,,LB,,
-H10,E. coli W3110,,LB,,
-H11,E. coli W3110,,LB,,
-H12,E. coli W3110,,LB,,
+A1,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+A2,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+A3,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+A4,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+A5,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+A6,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+A7,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+A8,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+A9,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+A10,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+A11,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+A12,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+B1,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+B2,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+B3,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+B4,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+B5,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+B6,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+B7,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+B8,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+B9,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+B10,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+B11,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+B12,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+C1,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+C2,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+C3,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+C4,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+C5,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+C6,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+C7,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+C8,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+C9,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+C10,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+C11,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+C12,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+D1,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+D2,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+D3,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+D4,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+D5,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+D6,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+D7,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+D8,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+D9,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+D10,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+D11,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+D12,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+E1,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+E2,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+E3,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+E4,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+E5,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+E6,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+E7,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+E8,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+E9,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+E10,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+E11,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+E12,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+F1,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+F2,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+F3,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Anti-GFPNB,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+F4,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+F5,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+F6,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Ab-15NB,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+F7,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+F8,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+F9,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Protegrin,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+F10,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+F11,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+F12,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_Cecropin,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+G1,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+G2,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+G3,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+G4,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+G5,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+G6,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+G7,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+G8,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+G9,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+G10,Blank,Blank,LB,0 mM Ca & 0 mM Mg,.01 mM IPTG
+G11,Blank,Blank,LB,0 mM Ca & 0 mM Mg,.1 mM IPTG
+G12,Blank,Blank,LB,0 mM Ca & 0 mM Mg,1 mM IPTG
+H1,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+H2,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+H3,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+H4,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+H5,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+H6,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+H7,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+H8,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+H9,E. coli W3110,pMMB67EH_OmpA_Ipp_2xNRtether_2xHA,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG
+H10,Blank,Blank,LB,1.228 mM Ca & 2.226 mM Mg,.01 mM IPTG
+H11,Blank,Blank,LB,1.228 mM Ca & 2.226 mM Mg,.1 mM IPTG
+H12,Blank,Blank,LB,1.228 mM Ca & 2.226 mM Mg,1 mM IPTG

@@ -1,8 +1,61 @@
+---
+title: "CSB Project Code Description"
+author: "Cody Cole"
+date: "3/21/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Shell Script
+
+This script is found in the file `sandbox/file_movement_script.sh`. The purpose of these commands are to copy the data that are saved on a flashdrive, which is mimicked here by the folder `flashdrive` that has the files stored under `flashdrive/Growth_Curves` and create a csv for the data in the `input` folder that will be used to add the sample names and conditions to the data. When running this script, it will move the data files, but it won't change the csv files for labels as I have already run that code and filled out the labels for the purpose of running the R script. 
+
+I attempted to make the regular expressions pretty general to account for the differences that may arise from my file naming, and it is written in a way to prevent overrighting the files that may already be present. 
+
+```{bash}
+#!/bin/bash
+
+#Change permissions to copy and rename files
+chmod a+rwx ../flashdrive/Growth_Curves/*
+
+#Searches the flashdrive for files that contain the word test
+test_files=$(find ../flashdrive/Growth_Curves/ -iname '*test*')
+
+#For loop that takes each file from the flashdrive and changes the name copies it to the data folder 
+for file in $test_files 
+do 
+  #The sed function here takes all the information past test (est to be case insensitve) to rename the file
+  file_tag=$(echo "$file" | sed -ne 's/.*est//p')
+  #In this case it does the same, but leaves out the .xlsx from the file name
+  file_tag_without_xlsx=$(echo "$file" | sed -ne 's/.*est//;s/\..*$//p')
+  #Copies the file to data folder without overrighting files already copied
+  cp -n $file ../data/Nanobody_Slay_Test"$file_tag"
+  #Creates a label csv that will be used to match to the data file in the R script based on a template in folder
+  cp -n ../input/template.csv ../input/Nanobody_Slay_Test"$file_tag_without_xlsx"_Labels.csv
+done
+
+
+echo "Now go to the input file directory and fill out the labels for your tests"
+```
+
+
+## R Script
+
+This R script from `sandbox/code_script.R` is responsible for generating descriptive plots for all the files that are inserted into the `data` folder.
+
+```{r}
 library(tidyverse)
 library(readxl)
 library(stringi)
+```
 
+Here the files in the `data` folder are amended to `data_files` which will be used for the **for** loop. `plot_directory` contains the what has already been analyzed. 
 
+```{r}
 #Access files located in the data and plot directories 
 data_files <- dir("../data", 
                   recursive=TRUE,full.names=TRUE)
@@ -10,8 +63,15 @@ data_files <- dir("../data",
 plot_directory <- dir("../plots/",
                       recursive = FALSE,
                       full.names = FALSE)
+```
 
+This **for** loop goes through each file in the `data` to tidy the data and generate two plots. There is the `overview_plot.pdf` looks at the entire 96-well plate to get a general idea of what went on with the assay, and the `main_plot.pdf` is the graph that compiles the replicates and displays the data in a much more readable way. 
 
+There are a few **if** statments imbeded to prevent reanalyzing data that has already been process, progress the for loop in the event it comes across an empty label file, set desired y-limits, and change the `main_plot.pdf` output for optimal display based on the data. 
+
+The output plots are stored under their test number in the `plot` folder. 
+
+```{r}
 #For loop that cleans and generates graphs for 
 for (file in data_files) {
   
@@ -91,7 +151,6 @@ for (file in data_files) {
     } 
     
     
-    
     #This factors variables that are used for plotting and adjusts the order based 
     #the input of the user by using the unique function in levels
     growth_curve_summary$Strain_Plasmid <- factor(growth_curve_summary$Strain_Plasmid, 
@@ -112,8 +171,7 @@ for (file in data_files) {
     ggplot(data = growth_curve_data_final) + 
       aes(x = Hours, y = Turbidity, color = Sample_id) +
       geom_line(size = 1) +
-      facet_wrap(.~Well, ncol = 12) +
-      ggtitle(paste0(test_number, " Overview Plot")) +
+      facet_wrap(.~Well, ncol = 12) + 
       ylab(expression("Turbidity (OD"[600]*")")) +
       theme(legend.position = "none") +
       scale_x_continuous(breaks = seq(0, x_upper, 5)) +
@@ -142,7 +200,6 @@ for (file in data_files) {
         theme_bw() +
         theme(legend.position = "bottom",
               legend.title = element_blank()) +
-        ggtitle(paste0(test_number, " Main Plot")) +
         scale_y_continuous(expand = c(.02, 0), 
                            breaks = seq(0, y_upper, .25), 
                            limits = c(y_lower, y_upper)) + 
@@ -170,7 +227,6 @@ for (file in data_files) {
         theme_bw() +
         theme(legend.position = "bottom",
               legend.title = element_blank()) +
-        ggtitle(paste0(test_number, " Main Plot")) +
         scale_y_continuous(expand = c(.02, 0), 
                            breaks = seq(0, y_upper, .25), 
                            limits = c(y_lower, y_upper)) + 
@@ -187,5 +243,6 @@ for (file in data_files) {
     
   }
 }
+```
 
 
