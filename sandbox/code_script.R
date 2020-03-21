@@ -2,20 +2,15 @@ library(tidyverse)
 library(readxl)
 
 
-current_files <- dir("../data", 
+data_files <- dir("../data", 
                      recursive=TRUE,full.names=TRUE)
 
-new_files <- dir("../flashdrive", 
-                 recursive=TRUE,full.names=TRUE)
-
-new_files <- new_files[new_files != current_files,]
-
-#now
-
+input_files <- dir("../input", 
+                   recursive=TRUE,full.names=TRUE)
 
 #Load in the data
 growth_curve_data <- read_excel("../data/Nanobody_Slay_Test.xlsx")
-growth_curve_labels <- read_csv("../data/Nanobody_Slay_Test_Labels.csv")
+growth_curve_labels <- read_csv("../input/Nanobody_Slay_Test_Labels.csv")
 
 
 #In the event a well or multiple wells were messed up during preparation they can be removed here by specifying the well in select()
@@ -110,13 +105,15 @@ ggplot(data = growth_curve_summary) +
   facet_grid(Condition1~Condition2) + 
   ylab(expression("Turbidity (OD"[600]*")")) + 
   theme_bw() +
-  theme(legend.position = "bottom") +
+  theme(legend.position = "bottom",
+        legend.title = element_blank()) +
   scale_y_continuous(expand = c(.02, 0), 
                      breaks = seq(0, y_upper, .25), 
                      limits = c(y_lower, y_upper)) + 
   scale_x_continuous(expand = c(.015, 0), 
                      breaks = seq(0, x_upper, 1), 
                      limits = c(0, x_upper)) +
+  guides(color = guide_legend(nrow=2,byrow=TRUE)) +
   ggsave("../plots/test/main_plot.eps", 
          device = "eps",
          width = 26,
@@ -134,10 +131,21 @@ ggplot(data = growth_curve_summary) +
 
 
 
+if (length(unique(growth_curve_summary$Condition2)) == 1) {
+  print("no")
+} else if (length(unique(growth_curve_summary$Strain)) > 1) {
+  print("potato")
+} else if () {
+  print("bigger potato")
+} else {
+  print("Error")
+}
 
 
 
+length(unique(growth_curve_summary$Strain))
 
+  length(unique(growth_curve_summary$Condition2))
 
 
 
